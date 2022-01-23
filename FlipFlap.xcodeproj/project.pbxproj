@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		522FFDA7279D3F0B0069CE13 /* FlipFlapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FFDA6279D3F0B0069CE13 /* FlipFlapApp.swift */; };
-		522FFDA9279D3F0B0069CE13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FFDA8279D3F0B0069CE13 /* ContentView.swift */; };
 		522FFDAB279D3F0C0069CE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522FFDAA279D3F0C0069CE13 /* Assets.xcassets */; };
 		522FFDAE279D3F0C0069CE13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522FFDAD279D3F0C0069CE13 /* Preview Assets.xcassets */; };
 		522FFDB8279D3F0D0069CE13 /* FlipFlapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FFDB7279D3F0D0069CE13 /* FlipFlapTests.swift */; };
 		522FFDC2279D3F0D0069CE13 /* FlipFlapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FFDC1279D3F0D0069CE13 /* FlipFlapUITests.swift */; };
 		522FFDC4279D3F0D0069CE13 /* FlipFlapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FFDC3279D3F0D0069CE13 /* FlipFlapUITestsLaunchTests.swift */; };
+		522FFDD3279D3F3F0069CE13 /* TicTacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FFDD2279D3F3F0069CE13 /* TicTacView.swift */; };
+		522FFDD5279D3F4B0069CE13 /* TicTacViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FFDD4279D3F4B0069CE13 /* TicTacViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		522FFDA3279D3F0B0069CE13 /* FlipFlap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipFlap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522FFDA6279D3F0B0069CE13 /* FlipFlapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipFlapApp.swift; sourceTree = "<group>"; };
-		522FFDA8279D3F0B0069CE13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		522FFDAA279D3F0C0069CE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522FFDAD279D3F0C0069CE13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		522FFDB3279D3F0D0069CE13 /* FlipFlapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipFlapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		522FFDBD279D3F0D0069CE13 /* FlipFlapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipFlapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522FFDC1279D3F0D0069CE13 /* FlipFlapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipFlapUITests.swift; sourceTree = "<group>"; };
 		522FFDC3279D3F0D0069CE13 /* FlipFlapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipFlapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		522FFDD2279D3F3F0069CE13 /* TicTacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacView.swift; sourceTree = "<group>"; };
+		522FFDD4279D3F4B0069CE13 /* TicTacViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				522FFDA6279D3F0B0069CE13 /* FlipFlapApp.swift */,
-				522FFDA8279D3F0B0069CE13 /* ContentView.swift */,
+				522FFDD2279D3F3F0069CE13 /* TicTacView.swift */,
+				522FFDD4279D3F4B0069CE13 /* TicTacViewModel.swift */,
 				522FFDAA279D3F0C0069CE13 /* Assets.xcassets */,
 				522FFDAC279D3F0C0069CE13 /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522FFDA9279D3F0B0069CE13 /* ContentView.swift in Sources */,
+				522FFDD3279D3F3F0069CE13 /* TicTacView.swift in Sources */,
+				522FFDD5279D3F4B0069CE13 /* TicTacViewModel.swift in Sources */,
 				522FFDA7279D3F0B0069CE13 /* FlipFlapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
